@@ -1,5 +1,4 @@
 import React from 'react';
-import imgImg0021RemovebgPreview1 from '../assets/99924e5020c982471ac13e439d9983e16da68849.png';
 
 function Group() {
     return (
@@ -128,7 +127,7 @@ function Group() {
                 </p>
             </div>
             <div className="absolute h-[727px] left-[63px] top-[-196px] w-[343px]" data-name="IMG_0021-removebg-preview 1">
-                <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover opacity-[0.33] pointer-events-none size-full" src={imgImg0021RemovebgPreview1} />
+                <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover opacity-[0.33] pointer-events-none size-full" src="/assets/99924e5020c982471ac13e439d9983e16da68849.png" />
             </div>
         </div>
     );
