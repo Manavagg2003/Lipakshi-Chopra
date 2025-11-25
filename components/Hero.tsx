@@ -9,10 +9,10 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
   return (
     <section id={id} className="relative pt-12 md:pt-20 pb-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-24">
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-2 lg:gap-4">
 
           {/* Left Content */}
-          <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6">
+          <div className="w-full lg:w-5/12 text-center lg:text-left space-y-6">
             <div className="relative">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-brand-dark leading-[0.9]">
                 Lipakshi <br />
@@ -55,7 +55,7 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
               <div className="absolute -bottom-6 -left-6 w-full h-full rounded-full bg-brand-brown/5 z-0"></div> */}
 
           {/* Main Image - Arch Shape */}
-          <div>
+          <div className="w-full lg:w-7/12 flex justify-center lg:justify-start">
             <Link to="/pixel-perfection">
               <img
                 src="lippi_news.png"
