@@ -98,11 +98,11 @@ export const Projects: React.FC<ProjectsProps> = ({ id }) => {
   const [activeCategory, setActiveCategory] = useState<Category>('All');
 
   const allProjects: ProjectItem[] = [
-    { id: 'p1', title: 'Website Designs', category: 'UI/UX', imageUrl: 'public/fokal.png', description: 'Web Design' },
-    { id: 'p2', title: 'Mobile App', category: 'UI/UX', imageUrl: 'public/dibbz.png', description: 'App Design' },
-    { id: 'p3', title: 'Branding', category: 'Branding', imageUrl: 'public/elvion.png', description: 'Identity Design' },
-    { id: 'p4', title: 'Illustrations', category: 'Illustrations', imageUrl: 'public/illustrations.png', description: 'Digital Illustration' },
-    { id: 'p5', title: 'Art Collection', category: 'Art Collection', imageUrl: 'public/potraits.png', description: 'Digital Painting' },
+    { id: 'p1', title: 'Website Designs', category: 'UI/UX', imageUrl: 'public/assets/fokal.png', description: 'Web Design' },
+    { id: 'p2', title: 'Mobile App', category: 'UI/UX', imageUrl: 'public/assets/dibbz.png', description: 'App Design' },
+    { id: 'p3', title: 'Branding', category: 'Branding', imageUrl: 'public/assets/elvion.png', description: 'Identity Design' },
+    { id: 'p4', title: 'Illustrations', category: 'Illustrations', imageUrl: 'public/assets/illustrations.png', description: 'Digital Illustration' },
+    { id: 'p5', title: 'Art Collection', category: 'Art Collection', imageUrl: 'public/assets/potraits.png', description: 'Digital Painting' },
   ];
 
   const filteredProjects = activeCategory === 'All'
