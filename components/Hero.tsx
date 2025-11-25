@@ -58,7 +58,7 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
           <div className="w-full lg:w-7/12 flex justify-center lg:justify-start">
             <Link to="/pixel-perfection">
               <img
-                src="lippi_news.png"
+                src="/lippi_news.png"
                 alt="Lipakshi Chopra"
                 className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110 cursor-pointer"
               />
